@@ -1,0 +1,113 @@
+/*@media screen and (min-width: 850px)*/
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0;
+}
+
+main{
+	min-height: 59vh;
+}
+
+header
+{
+	height: 20vh;
+	border: 1px solid black;
+	background-color: #626cfe;
+	color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+ol{
+	display: flex;
+	justify-content: space-around;
+}
+
+li{
+	list-style: none;
+}
+
+#formulaire{
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.label_input{
+	border: 1px solid #626cfe;
+	border-radius: 5px;
+	padding : 8px;
+}
+
+div{
+	display: flex;
+}
+
+div >label{
+	width: 170px;
+}
+
+input{
+	border-radius: 2px;
+	border: 1px solid #626cfe;
+	width: 150px;
+	text-align: center;
+}
+
+input:focus{
+	background-color: #626cfe;
+	color: white;
+}
+
+a {
+	width: 100px;
+	border: 1px solid #fff;
+	border-radius: 18px;
+	padding: 8px 12px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Verdana;
+  	color: #fff;
+  	background-color: #626cfe;
+  	transition: all 0.5s ease-out;
+}
+
+a:hover,a:focus {
+  	color: #333;
+  	background-color: #fff;
+}
+
+#formulaire input[type=submit]{
+	width: 100px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 8px 12px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Verdana;
+  	color: #fff;
+  	background-color: #626cfe;
+  	transition: all 0.5s ease-out;
+}
+
+#formulaire input[type=submit]:hover{
+	cursor: pointer;
+}
+
+footer
+{
+	height: 20vh;
+	border: 1px solid black;
+	background-color: #626cfe;
+	color: white;
+	text-align: right;
+}
+
+footer p{
+	margin-top: 15vh;
+	margin-right: 2vh;
+}
